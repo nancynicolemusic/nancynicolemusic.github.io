@@ -1,0 +1,66 @@
+html{
+    background: url(../images/NancyBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    font-size:60px;
+    font-family: 'Allura';
+    font-weight: normal;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.nav ul {
+    list-style: none;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+.nav a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    transition: .3s background-color;
+}
+
+.nav a:hover{
+    background-color: rgba(39,33,33,0.5);
+}
+
+
+/* not sure what this does */
+.nav a.active {
+    background: #fff;
+    color: #444;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+    }
+}
