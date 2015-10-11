@@ -76,6 +76,9 @@ body {
     visibility: visible;
     }
 
+    img.logo {
+    visibility: hidden;
+    }
 }
 
 
