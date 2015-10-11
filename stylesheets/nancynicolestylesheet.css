@@ -70,4 +70,8 @@ body {
         font-size: 1.4em;
         display: inline-block;
     }
+
+    #title{
+       visibility: hidden;   
+    }
 }
