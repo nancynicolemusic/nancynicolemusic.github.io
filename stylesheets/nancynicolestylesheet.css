@@ -77,7 +77,7 @@ body {
     }
 
     img.logo {
-    visibility: hidden;
+    display: none;
     }
 }
 
