@@ -11,7 +11,7 @@ body {
     padding: 0;
 }
 
-img#logo{
+img.logo{
     max-width:150px;
     display: block;
     margin-left: auto;
@@ -79,13 +79,13 @@ img#logo{
 
 
 @media screen and (orentation: portrait){
-    img#logo {
+    img.logo {
         max-width: 90%;
     }
 }
 
 @media screen and (orentation: landscape) {
-    img#logo {
+    img.logo {
        max-height: 90%;
     }
 }  
