@@ -11,6 +11,10 @@ body {
     padding: 0;
 }
 
+img #logo{
+    max-width:20%;
+}
+
 #title{
     font-size:60px;
     font-family: 'Allura';
