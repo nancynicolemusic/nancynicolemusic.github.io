@@ -19,12 +19,7 @@ body {
 }
 
 #title{
-    font-size:60px;
-    font-family: 'Allura';
-    font-weight: normal;
-    padding-bottom: 0px;
-    color: #fff;
-    text-align: center;
+       visibility: hidden;   
 }
 
 
@@ -72,6 +67,11 @@ body {
     }
 
     #title{
-       visibility: hidden;   
+    font-size:60px;
+    font-family: 'Allura';
+    font-weight: normal;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
     }
 }
